@@ -1,0 +1,100 @@
+*{
+    font-family:"Roboto",sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 15%;
+    background-color:rgb(238, 196, 160);
+}
+a{
+    text-decoration: none;
+    color:black;
+;
+} 
+body{
+    background-color: beige;
+}  
+.logo{
+    font-size: 20px;
+    text-transform:uppercase ;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:rgb(173, 79, 79);
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a:hover{
+    background-color:rgb(196, 171, 153);
+}
+.pic{
+    float: right;
+}
+.main h1{
+    text-align:center;
+}
+.back{
+    padding: 9px 20px;
+    border-radius: 50px;
+    background-color:rgb(238, 196, 160);
+    margin-left:370px;
+}
+.back:hover{
+    background-color:rgb(173, 79, 79);
+}
+.detail{
+    font-size: large;
+    margin: 20px;
+    line-height: 25px;
+}
+.service li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+
+.pot{
+    display: inline-block;
+}
+.nav-content{
+    position: absolute;
+    top:70px;
+    min-width:100px;
+    max-height: 0;
+    background-color:rgb(238, 196, 160) ;
+    overflow: hidden;
+}
+.nav-content{
+    text-decoration: none;
+}
+.nav-sub ul{
+display: flex;
+flex-direction:column;
+}
+.nav-sub ul li a{
+    position: 10px 10px 10px 20px;
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+}
+.nav-sub ul li a:hover{
+        background-color:rgb(179, 167, 158); ;
+}
+.active:focus{
+    background-color:rgb(179, 167, 158);
+}
+.active:focus ~ .nav-content{
+    max-height: 200px;
+    transition: max-height 0.4s ease-in;
+}
+.smart{
+    float: left;
+}

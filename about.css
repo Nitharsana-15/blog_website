@@ -1,0 +1,59 @@
+body{
+    background-image:url(back2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+
+}
+.co{
+    font-size: large;
+     margin: 50px;
+}
+.be{
+   margin: 50px;
+}
+.house{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 30px 30px 30px;
+    
+}
+.smart{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+     padding: 30px 30px 30px 30px;
+}
+.modern{
+     height: 250px;
+    width: 250px;
+    border-radius: 100%;
+     padding: 30px 30px 30px 30px;
+}
+.simple{
+     height: 250px;
+    width: 250px;
+    border-radius: 100%;
+     padding: 30px 30px 30px 30px;
+
+}
+.wood{
+      height: 250px;
+    width: 250px;
+    border-radius: 100%;
+     padding: 30px 30px 30px 30px;
+}
+.cont li{
+    list-style: none;
+    display: inline-block; 
+     padding: 10px 10px 5px 5px; 
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     padding:10px 10px 5px 5px; 
+     margin-right: 10px;
+     margin-left: 10px;
+
+}
