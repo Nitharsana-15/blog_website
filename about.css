@@ -1,16 +1,22 @@
+*{
+    font-family:"Roboto",sans-serif;
+}
 body{
     background-image:url(back2.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 200%;
 
 }
-.co{
-    font-size: large;
-     margin: 50px;
+.interior{
+    text-align: center;
+    font-style: italic;
 }
-.be{
-   margin: 50px;
+.para{
+    margin-left: 20px;
+    font-size: larger;
+    line-height: 30px;
 }
+
 .house{
     display: flex;
     flex-direction: row;
@@ -18,42 +24,41 @@ body{
     padding: 30px 30px 30px 30px;
     
 }
+
 .smart{
     height: 250px;
     width: 250px;
-    border-radius: 100%;
-     padding: 30px 30px 30px 30px;
+      padding: 40px 40px 40px 40px; 
+      border-radius: 100%;
 }
 .modern{
      height: 250px;
     width: 250px;
-    border-radius: 100%;
-     padding: 30px 30px 30px 30px;
+     padding: 40px 40px 40px 40px;
+      border-radius: 100%;
 }
 .simple{
      height: 250px;
     width: 250px;
+     padding: 40px 40px 40px 40px;
     border-radius: 100%;
-     padding: 30px 30px 30px 30px;
 
 }
 .wood{
       height: 250px;
     width: 250px;
-    border-radius: 100%;
-     padding: 30px 30px 30px 30px;
+     padding: 40px 40px 40px 40px;
+      border-radius: 100%;
 }
-.cont li{
-    list-style: none;
-    display: inline-block; 
-     padding: 10px 10px 5px 5px; 
-}
-.cont{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-     padding:10px 10px 5px 5px; 
-     margin-right: 10px;
-     margin-left: 10px;
 
+.main-sub{
+     display:inline-block;
+     width:300px;
+     height:450px;
+     justify-content: space-between;
+     border-width:500px;
+     border-bottom: 30px;
+    
+     text-align:center ;
+   
 }

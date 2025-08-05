@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kitchen</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-image: url('kitback.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Background overlay effect for better text readability */
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.8);
+      min-height: 100vh;
+      padding-bottom: 50px;
+    }
+
+    header {
+      background-color: #ca3461;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .description {
+      margin-top: 30px;
+    }
+
+    .description p {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+
+    .benefits {
+      background-color: #ffe9d6;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 40px;
+    }
+
+    .benefits h2 {
+      color: #ca3461;
+      margin-bottom: 15px;
+    }
+
+    .benefits ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .benefits ul li {
+      padding: 8px 0;
+      font-size: 1em;
+    }
+
+    .benefits ul li::before {
+      content: "✔️ ";
+      color: green;
+    }
+
+    .discount {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 1.5em;
+      color: #ca3461;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      .discount {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Add overlay to make text visible on background -->
+  <div class="overlay">
+
+    <header>
+      <h1>Our Kitchen Plannings</h1>
+    </header>
+
+    <div class="container">
+      <div class="image-container">
+        <img src="smart-kitchen.jpg" alt="Smart Kitchen" />
+      </div>
+
+      <div class="description">
+        <p>
+          For a simple kitchen interior design, some key words include minimalist, functional, streamlined, open, and bright.
+          These terms emphasize clean lines, efficient use of space, and a clutter-free environment.
+        </p>
+        <p>
+          Kitchen interior design is the process of creating a functional and aesthetically pleasing cooking space.
+          It involves planning the layout, choosing materials, selecting appliances, and optimizing storage for cooking.
+        </p>
+      </div>
+
+      <div class="benefits">
+        <h2>Your Benefits</h2>
+        <ul>
+          <li>Rapid and easy</li>
+          <li>3D View</li>
+          <li>Free of charge</li>
+          <li>Without download</li>
+          <li>Without registration</li>
+          <li>Receive non-binding offers</li>
+        </ul>
+      </div>
+
+      <div class="discount">
+        🔥 Up to 10% Discount on Your First Design 🔥
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
